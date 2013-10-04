@@ -7,6 +7,7 @@ TARGET = qtgl
 DEPENDPATH += .
 INCLUDEPATH += .
 QT += opengl
+LIBS += -lGLU
 
 # Input
 HEADERS += qtgl.h
